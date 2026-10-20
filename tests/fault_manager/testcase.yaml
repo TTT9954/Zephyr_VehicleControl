@@ -1,0 +1,7 @@
+tests:
+  vehicle_control.fault_manager:
+    platform_allow:
+      - native_sim
+    tags:
+      - vehicle
+      - unit

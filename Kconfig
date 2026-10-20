@@ -1,0 +1,2 @@
+mainmenu "Vehicle Control Demo"
+source "Kconfig.zephyr"
