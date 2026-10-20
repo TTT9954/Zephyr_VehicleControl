@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zephyr Vehicle Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="dashboard">
+        <h1>Zephyr Vehicle Control</h1>
+        <p>Vehicle monitoring dashboard</p>
+
+        <section class="cards">
+            <div class="card">
+                <h3>Vehicle Speed</h3>
+                <p><span id="speed">0</span> km/h</p>
+            </div>
+            <div class="card">
+                <h3>Battery</h3>
+                <p><span id="battery">82</span>%</p>
+            </div>
+            <div class="card">
+                <h3>Motor Temperature</h3>
+                <p><span id="temperature">41</span> °C</p>
+            </div>
+        </section>
+
+        <section class="controls">
+            <h2>Vehicle Controls</h2>
+
+            <label for="targetSpeed">Target Speed</label>
+            <input id="targetSpeed" type="number"
+                   min="0" max="120" value="50">
+
+            <button id="apply">Set Target Speed</button>
+            <button id="drive">Drive</button>
+            <button id="stop">Standby</button>
+
+            <p id="status">System ready — demo mode</p>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
