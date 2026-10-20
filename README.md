@@ -1,6 +1,6 @@
-# Zephyr Vehicle Control
+# Zephyr Vehicle Control with Web-App coordination
 
-A Zephyr RTOS educational example implementing simulated vehicle speed input,
+A Zephyr RTOS  example implementing simulated vehicle speed input,
 vehicle state machine, speed-limit hysteresis, fault monitoring, and mock CAN
 telemetry. **No STM32 hardware is required** for the default build.
 
